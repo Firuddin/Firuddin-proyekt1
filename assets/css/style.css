@@ -91,9 +91,9 @@ top: -22px;
 }
 .qutu .container .row1 .column1 h2 {
   font-size: 1rem;
-  color: var:blue;
+  color: var: blue;
   margin: 20px 0;
-  font-weight: 900;
+  font-weight: 900 px;
 }
 
 .qutu .container .row1 .column1 h3 {
@@ -123,4 +123,11 @@ top: -22px;
 .qutu .container .row1 .column1 .buttons .button2 {
   background-color: white;
   color:blueviolet;
+}
+  .box .container1 .row2 {
+  margin: 150px auto;
+  display: flex;
+  width: 1054px;
+  justify-content: space-between;
+}
 
