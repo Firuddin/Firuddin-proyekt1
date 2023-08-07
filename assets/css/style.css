@@ -1,0 +1,126 @@
+.nav {
+  width: 1322px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+* {
+  margin: 0px;
+  font-size: 14px;
+  font-family: Montserrat;
+  box-sizing: border-box;
+}
+.nav h2 {
+  position: relative;
+  left: -20px;
+  font-size: 2rem;
+  font-weight: 700px;
+}
+.links {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -70px;
+}
+.links {
+  list-style-type: none;
+}
+.nav .links li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.nav h3 {
+  position: relative;
+  font-size: 1.2rem;
+}
+.nav .login .button i {
+  padding-left: 10px;
+}
+.nav .login .button {
+  background-color: blueviolet;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  color: black;
+  border: 1px solid blue;
+  font-family: montserrat;
+}
+.qutu {
+  width: 1440px;
+  margin: 0 auto;
+}
+.qutu .container .row1 {
+  display: flex;
+  margin-top: 70px;
+}
+.qutu .container .row1 .column1{
+position: relative;
+flex-direction: column;
+gap: 20px;
+display: flex;
+}
+.qutu .container .row1 .column1 img{
+position: absolute;
+width: 704px;
+height: 642px;
+bottom: -10px;
+top: -22px;
+}
+.qutu .container .row1 .column1 .h1 h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  padding-left: 10px;
+  color: #252b42;
+  padding-top: 30px;
+  line-height: 80px;
+}
+.qutu .container .row1 .column1 .h1 .hh {
+  position: relative;
+  top: -40px;
+}
+.qutu .container .row1 .column1 .h1 {
+  border: 1px dashed var(--cernl);
+  border-radius: 7px;
+  border-right-style: none;
+  margin-top: 20px;
+  width: 90%;
+  height: 350px;
+}
+.qutu .container .row1 .column1 h2 {
+  font-size: 1rem;
+  color: var:blue;
+  margin: 20px 0;
+  font-weight: 900;
+}
+
+.qutu .container .row1 .column1 h3 {
+  font-size: 20px;
+  color: #737373;
+  width: 40ch;
+}
+
+.qutu .container .row1 .column1 .buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.qutu .container .row1 .column1 .buttons > * {
+  border: 1px solid grey;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.qutu .container .row1 .column1 .buttons .button1 {
+  background-color: blueviolet;
+  color: white;
+}
+
+.qutu .container .row1 .column1 .buttons .button2 {
+  background-color: white;
+  color:blueviolet;
+
