@@ -393,6 +393,9 @@
   border-radius: 50px;
   width: fit-content;
 }
+.ourdepartment{
+  margin-left: 100px;
+}
 
 .ourdepartment .container .first {
   margin-top: 150px;
@@ -449,6 +452,9 @@
 
 .ourdepartment .container .second .col h6 {
   font-weight: 700;
+}
+.ourteam{
+  margin-left: 100px;
 }
 
 .ourteam .container .first {
