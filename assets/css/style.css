@@ -131,6 +131,9 @@
   width: 1054px;
   justify-content: space-between;
 }
+.active{
+  margin-left: 100px;
+}
 .active .container2 {
   width: 1050px;
 }
@@ -229,6 +232,9 @@
   font-weight: 700;
   line-height: 24px;
   margin: 30px 0;
+}
+.ourdoctors{
+  margin-left: 100px;
 }
 
 .ourdoctors .container .first {
