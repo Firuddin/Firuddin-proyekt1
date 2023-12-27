@@ -25,8 +25,17 @@
   position: relative;
   left: -70px;
 }
+.login .button{
+  margin-top: -10px;
+}
+.login{
+  display: flex;
+  gap: 20px;
+ 
+}
 .links {
   list-style-type: none;
+  gap: 20px;
 }
 .nav .links li a {
   color: black;
